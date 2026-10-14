@@ -629,6 +629,11 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
 @media(max-width:880px){.demo-grid,.bolt-feature{grid-template-columns:1fr}.initiative-list{border-right:0;border-bottom:1px solid var(--hairline)}.demo-top{flex-direction:column}.demo-metrics>div{padding:16px;flex-direction:column;align-items:flex-start;gap:4px}.bolt-feature{gap:24px;padding:24px}.bolt-visual img{max-width:230px}}
 @media(max-width:480px){.demo-top,.initiative-detail{padding:22px}.initiative-list{padding:16px}.demo-footnote{padding:18px 22px}.detail-facts{grid-template-columns:1fr}.demo-metrics span{font-size:.75rem}.demo-top h3{font-size:1.45rem}}
 
+
+.file-label{display:block;font-size:.68rem;font-weight:400;opacity:.8;margin-top:4px}.hero-actions{align-items:stretch}.hero-actions>a{display:flex;flex-direction:column;justify-content:center;text-align:center}
+.case-studies{margin:0 0 52px}.case-heading{max-width:720px;margin-bottom:26px}.case-heading h3{font-family:'Fraunces',serif;font-weight:400;font-size:1.8rem;margin:12px 0}.case-heading p{color:var(--slate);font-size:.95rem;line-height:1.7}
+.case-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.case-card{padding:30px;border:1px solid var(--hairline);background:var(--white);border-top:3px solid var(--brass)}.case-card h4{font-family:'Fraunces',serif;font-size:1.4rem;line-height:1.35;font-weight:500;margin:16px 0 24px}.case-card dl{margin:0;font-size:.92rem;line-height:1.7}.case-card dt{font-size:.76rem;text-transform:uppercase;letter-spacing:.06em;font-weight:600;color:var(--brass-deep);margin-top:22px}.case-card dd{margin:6px 0 0;color:var(--slate)}.case-deliverables{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px;padding-top:20px;border-top:1px solid var(--hairline)}.case-deliverables span{padding:5px 9px;font-size:.73rem;background:var(--paper-dim);color:var(--slate)}
+@media(max-width:880px){.case-grid{grid-template-columns:1fr}}@media(max-width:480px){.case-card{padding:24px}.hero-actions>a{width:100%}}
 </style>
 </head>
 <body>
@@ -674,6 +679,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
         <div class="hero-actions">
           <a class="btn-primary" href="#contact">Get in touch</a>
           <a class="btn-ghost" href="#portfolio-demo">Explore my approach</a>
+
         </div>
       </div>
       <div class="hero-portrait">
@@ -884,6 +890,20 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
   <section id="projects">
 <div class="wrap">
 <div class="section-head"><div><span class="section-index">04 — Work examples</span><h2 class="section-title">How I connect strategy with delivery</h2></div><p class="section-note">Illustrative examples of my approach. No employer data or measured results.</p></div>
+<div class="case-studies" id="case-studies">
+<div class="case-heading"><span class="project-tag">SELECTED EXPERIENCE</span><h3>Governance in practice</h3><p>Two examples of my contribution to portfolio governance and transformation. These summaries describe my work without sharing employer documents or confidential data.</p></div>
+<div class="case-grid">
+<article class="case-card"><span class="project-tag">MITSUI SUMITOMO INSURANCE GROUP (MSIG USA)</span><h4>Creating a consistent path from intake to delivery</h4><dl>
+<dt>The challenge</dt><dd>Support consistent decisions and delivery accountability across business and technology initiatives.</dd>
+<dt>My contribution</dt><dd>I developed governance processes covering demand intake, prioritization, stage gates, required artifacts, and risk escalation. I created guidance and training for Scrum Masters, Project Managers, and Portfolio Owners, alongside reporting on milestones, capacity, risks, and dependencies.</dd>
+<dt>The outcome</dt><dd>A documented governance lifecycle, reusable delivery templates, and training materials that gave teams a shared reference for expectations and leadership reviews.</dd>
+</dl><div class="case-deliverables"><span>Lifecycle guidance</span><span>Business cases &amp; charters</span><span>RAID &amp; readiness reviews</span></div></article>
+<article class="case-card"><span class="project-tag">ARCH INSURANCE GROUP</span><h4>Connecting portfolio governance with operational change</h4><dl>
+<dt>The challenge</dt><dd>Establish consistent intake, prioritization, and oversight practices within Operations Transformation.</dd>
+<dt>My contribution</dt><dd>I co-developed the strategic project and portfolio governance framework. I built integration process flows and data-mapping diagrams to support future-state operating models, managed risks and changes, and supported adoption of portfolio processes across Operations.</dd>
+<dt>The outcome</dt><dd>A shared framework for intake and prioritization, supported by process documentation that helped teams understand dependencies and the intended operating model.</dd>
+</dl><div class="case-deliverables"><span>Intake &amp; prioritization</span><span>Process flows</span><span>Change support</span></div></article>
+</div></div>
 <div class="portfolio-demo" id="portfolio-demo">
 <div class="demo-top"><div><span class="project-tag">INTERACTIVE EXAMPLE · FICTIONAL DATA</span><h3>From portfolio status to leadership action</h3><p>Select an initiative to explore the risks, capacity, and decisions behind its status.</p></div><span class="demo-label">Sample portfolio review</span></div>
 <div class="demo-metrics" aria-label="Sample portfolio overview"><div><b>3</b><span>Illustrative initiatives</span></div><div><b>2</b><span>Need leadership action</span></div><div><b>1</b><span>On track</span></div></div>
