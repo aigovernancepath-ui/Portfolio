@@ -694,6 +694,21 @@ body.menu-open{overflow:hidden}
 @media(max-width:880px){.ledger-row{grid-template-columns:repeat(2,minmax(0,1fr))}.ledger-cell{padding:24px 16px}.ledger-cell:nth-child(3){border-left:0}}
 @media(max-width:580px){.ledger-row{grid-template-columns:1fr}.ledger-cell,.ledger-cell:nth-child(3){border-left:0;border-bottom:1px solid var(--hairline)}.ledger-cell:last-child{border-bottom:0}.opportunity-note p{font-size:1rem}}
 .ledger-row.experience-scope{grid-template-columns:repeat(3,minmax(0,1fr))}.experience-scope .ledger-cell:nth-child(3){border-left:1px solid var(--hairline)}@media(max-width:580px){.ledger-row.experience-scope{grid-template-columns:1fr}.experience-scope .ledger-cell:nth-child(3){border-left:0}}
+
+/* Executive recruiter scan */
+h1.hero-name em{display:inline-block;font-size:clamp(1.15rem,2.1vw,1.65rem);line-height:1.5;margin-top:10px;letter-spacing:.015em}
+.eyebrow-line{font-size:1rem;line-height:1.5;align-items:flex-start}
+.eyebrow-line .rule{flex-shrink:0;margin-top:11px}
+#case-studies .case-studies{margin:0}
+#case-studies .case-heading{max-width:760px;margin-bottom:32px}
+#case-studies .case-heading h2{margin-top:12px}
+.case-card h3{font-family:'Fraunces',serif;font-size:1.4rem;line-height:1.35;font-weight:500;margin:16px 0 24px}
+.earlier-career{border-top:1px solid var(--hairline);margin-top:32px}
+.earlier-career summary{cursor:pointer;padding:22px 4px;font-size:1.1rem;min-height:56px;color:var(--ink)}
+.earlier-career summary span{display:block;font-size:.9rem;color:var(--slate);line-height:1.6;margin-top:6px}
+.earlier-career .timeline{margin-top:20px}
+.earlier-career .tl-item{padding-bottom:24px}
+.ledger-num{font-size:clamp(1.25rem,2.2vw,1.7rem)}
 </style>
 </head>
 <body>
@@ -705,7 +720,7 @@ body.menu-open{overflow:hidden}
       <a href="#about">About</a>
   <a href="#experience">Experience</a>
       <a href="#skills">Expertise</a>
-      <a href="#projects">Highlights</a>
+      <a href="#case-studies">Case studies</a>
       <a href="#credentials">Credentials</a>
     </nav>
     <a class="nav-cta" href="#contact">Get in touch</a>
@@ -725,7 +740,7 @@ body.menu-open{overflow:hidden}
   <a href="#how-i-help">How I can help</a>
   <a href="#experience">Experience</a>
   <a href="#skills">Expertise</a>
-  <a href="#projects">Highlights</a>
+  <a href="#case-studies">Case studies</a>
   <a href="#credentials">Credentials</a>
   <a href="#contact">Contact</a>
 </div>
@@ -734,7 +749,7 @@ body.menu-open{overflow:hidden}
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
-        <div class="eyebrow-line"><span class="rule"></span>Portfolio Management · PMO · Transformation</div>
+        <div class="eyebrow-line"><span class="rule"></span>Enterprise Portfolio Management · PMO · Transformation</div>
         <h1 class="hero-name">Ana Perry<br><em>PfMP, PMP, AIGP, CSM</em></h1>
         
         <p class="hero-role">I turn strategy into clear portfolio priorities, practical governance, and coordinated delivery across business and technology teams.</p>
@@ -759,8 +774,23 @@ body.menu-open{overflow:hidden}
   <div class="ledger"><div class="wrap"><div class="ledger-row experience-scope">
 <div class="ledger-cell"><div class="ledger-num">9 domains</div><div class="ledger-label">Governance inputs coordinated across business and technology at MSIG USA</div></div>
 <div class="ledger-cell"><div class="ledger-num">3 insurers</div><div class="ledger-label">Experience across MSIG USA, Munich Re, and Arch</div></div>
-<div class="ledger-cell"><div class="ledger-num">Power BI</div><div class="ledger-label">Dashboards and forecasting models built with Data Analytics at Munich Re</div></div>
+<div class="ledger-cell"><div class="ledger-num">Executive reporting</div><div class="ledger-label">Power BI dashboards and forecasting models built with Data Analytics at Munich Re</div></div>
 </div></div></div>
+<section id="case-studies"><div class="wrap"><div class="case-studies">
+<div class="case-heading"><span class="project-tag">SELECTED EXPERIENCE</span><h2 class="section-title">Governance in practice</h2><p>Selected work at MSIG USA and Arch, summarized without confidential employer documents.</p></div>
+<div class="case-grid">
+<article class="case-card"><span class="project-tag">MITSUI SUMITOMO INSURANCE GROUP (MSIG USA)</span><h3>Creating a consistent path from intake to delivery</h3><dl>
+<dt>The challenge</dt><dd>Support consistent decisions and delivery accountability across business and technology initiatives.</dd>
+<dt>My leadership contribution</dt><dd>I designed lifecycle guidance and reusable templates, coordinated governance inputs across nine business and technology domains, and created training for Scrum Masters, Project Managers, and Portfolio Owners.</dd>
+<dt>The outcome</dt><dd>Teams had a shared reference for required evidence, responsibilities, and readiness reviews. Leadership reporting brought milestones, capacity concerns, and delivery risks together to support decisions.</dd>
+</dl><div class="case-deliverables"><span>Lifecycle guidance</span><span>Business cases &amp; charters</span><span>RAID &amp; readiness reviews</span></div></article>
+<article class="case-card"><span class="project-tag">ARCH INSURANCE GROUP</span><h3>Connecting portfolio governance with operational change</h3><dl>
+<dt>The challenge</dt><dd>Establish consistent intake, prioritization, and oversight practices within Operations Transformation.</dd>
+<dt>My leadership contribution</dt><dd>I co-developed the strategic project and portfolio framework, built integration process flows and data-mapping diagrams, and supported adoption across Operations while managing risks and changes.</dd>
+<dt>The outcome</dt><dd>Operations teams had a consistent basis for intake and prioritization. Process flows clarified dependencies and the intended operating model, supporting planning for the transition.</dd>
+</dl><div class="case-deliverables"><span>Intake &amp; prioritization</span><span>Process flows</span><span>Change support</span></div></article>
+</div></div>
+</div></section>
 <section id="about">
     <div class="wrap">
       <div class="section-head">
@@ -832,12 +862,14 @@ body.menu-open{overflow:hidden}
           </div>
         </div>
 
-        <div class="tl-item">
+        </div>
+<details class="earlier-career"><summary>Earlier career <span>Project management, research, digital delivery &amp; entrepreneurship · 2003–2020</span></summary><div class="timeline">
+<div class="tl-item">
           <div class="tl-num">2018–20</div>
           <div class="tl-body">
             <h3>Project Manager</h3>
             <p class="tl-meta">Curion (Consumer Insights) · Old Bridge, NJ · July 2018 — August 2020</p>
-            <p>I developed business cases and ROI analyses to support funding decisions, and data models and dashboards to support performance tracking and scenario planning.</p>
+            
           </div>
         </div>
 
@@ -846,7 +878,7 @@ body.menu-open{overflow:hidden}
           <div class="tl-body">
             <h3>Research Project Manager</h3>
             <p class="tl-meta">CRG Global / Datatelligence · Yorktown, NY · September 2014 — January 2018</p>
-            <p>I coordinated cross-functional research projects, monitored schedules and costs, and established consistent project management processes to support delivery.</p>
+            
           </div>
         </div>
 
@@ -855,7 +887,7 @@ body.menu-open{overflow:hidden}
           <div class="tl-body">
             <h3>Product Manager</h3>
             <p class="tl-meta">Cohort Digital Media · New York, NY · April 2012 — September 2014</p>
-            <p>I supported financial planning, vendor partnerships, and delivery coordination across digital media initiatives.</p>
+            
           </div>
         </div>
 
@@ -864,7 +896,7 @@ body.menu-open{overflow:hidden}
           <div class="tl-body">
             <h3>Event Manager</h3>
             <p class="tl-meta">Portada (Media Analytics) · New York, NY · 2010 — 2012</p>
-            <p>I managed events and programming for a media analytics platform serving cross-cultural marketing audiences.</p>
+            
           </div>
         </div>
 
@@ -873,7 +905,7 @@ body.menu-open{overflow:hidden}
           <div class="tl-body">
             <h3>Public Relations Manager</h3>
             <p class="tl-meta">University American College Skopje · 2006 — 2010</p>
-            <p>I led public relations and communications activities for the college.</p>
+            
           </div>
         </div>
 
@@ -882,11 +914,11 @@ body.menu-open{overflow:hidden}
           <div class="tl-body">
             <h3>Co-founder</h3>
             <p class="tl-meta">GSIX — Scalable Custom Software Solutions · 2003 — 2008</p>
-            <p>I co-founded and helped build a custom software solutions venture alongside my early public relations career.</p>
+            
           </div>
         </div>
 
-      </div>
+</div></details>
     </div>
   </section>
 
@@ -955,21 +987,7 @@ body.menu-open{overflow:hidden}
 
   <section id="projects">
 <div class="wrap">
-<div class="section-head"><div><span class="section-index">04 — Work examples</span><h2 class="section-title">How I connect strategy with delivery</h2></div><p class="section-note">Illustrative examples of my approach. No employer data or measured results.</p></div>
-<div class="case-studies" id="case-studies">
-<div class="case-heading"><span class="project-tag">SELECTED EXPERIENCE</span><h3>Governance in practice</h3><p>Two examples of my contribution to portfolio governance and transformation. These summaries describe my work without sharing employer documents or confidential data.</p></div>
-<div class="case-grid">
-<article class="case-card"><span class="project-tag">MITSUI SUMITOMO INSURANCE GROUP (MSIG USA)</span><h4>Creating a consistent path from intake to delivery</h4><dl>
-<dt>The challenge</dt><dd>Support consistent decisions and delivery accountability across business and technology initiatives.</dd>
-<dt>My contribution</dt><dd>I created lifecycle guidance, reusable templates, and training for Scrum Masters, Project Managers, and Portfolio Owners, supported by reporting on milestones, capacity, and delivery risks.</dd>
-<dt>The outcome</dt><dd>A documented governance lifecycle, reusable delivery templates, and training materials that gave teams a shared reference for expectations and leadership reviews.</dd>
-</dl><div class="case-deliverables"><span>Lifecycle guidance</span><span>Business cases &amp; charters</span><span>RAID &amp; readiness reviews</span></div></article>
-<article class="case-card"><span class="project-tag">ARCH INSURANCE GROUP</span><h4>Connecting portfolio governance with operational change</h4><dl>
-<dt>The challenge</dt><dd>Establish consistent intake, prioritization, and oversight practices within Operations Transformation.</dd>
-<dt>My contribution</dt><dd>I co-developed the strategic project and portfolio governance framework. I built integration process flows and data-mapping diagrams to support future-state operating models, managed risks and changes, and supported adoption of portfolio processes across Operations.</dd>
-<dt>The outcome</dt><dd>A shared framework for intake and prioritization, supported by process documentation that helped teams understand dependencies and the intended operating model.</dd>
-</dl><div class="case-deliverables"><span>Intake &amp; prioritization</span><span>Process flows</span><span>Change support</span></div></article>
-</div></div>
+<div class="section-head"><div><span class="section-index">04 — Interactive demonstrations</span><h2 class="section-title">Explore my approach</h2></div><p class="section-note">Illustrative frameworks and fictional scenarios, separate from the experience described above.</p></div>
 <div class="portfolio-demo" id="portfolio-demo">
 <div class="demo-top"><div><span class="project-tag">INTERACTIVE EXAMPLE · FICTIONAL DATA</span><h3>From portfolio status to leadership action</h3><p>Select an initiative to explore the risks, capacity, and decisions behind its status.</p></div><span class="demo-label">Sample portfolio review</span></div>
 <div class="demo-metrics" aria-label="Sample portfolio overview"><div><b>3</b><span>Illustrative initiatives</span></div><div><b>2</b><span>Need leadership action</span></div><div><b>1</b><span>On track</span></div></div>
