@@ -684,6 +684,15 @@ body.menu-open{overflow:hidden}
 .hero .portrait-tag{position:static;display:inline-block;max-width:290px;margin:0 0 24px;padding:14px 20px;border-radius:18px 3px 3px 18px;font-size:.85rem;line-height:1.5}.hero .portrait-tag b{color:var(--paper);font-size:1.05rem;margin-bottom:4px}
 .hero .hero-portrait .portrait-tag{position:absolute;bottom:-18px;left:-18px;margin:0;max-width:240px;padding:12px 18px;font-size:.78rem}
 .hero .hero-portrait .portrait-tag{left:0;bottom:-28px;max-width:195px;padding:9px 12px;font-size:.67rem;line-height:1.4;border-radius:12px 2px 2px 12px}.hero .hero-portrait .portrait-tag b{font-size:.88rem;margin-bottom:3px}
+
+.opportunity-note{border-left:3px solid var(--brass);padding:2px 0 2px 16px;margin:0 0 26px;max-width:58ch}
+.opportunity-note p{font-size:.92rem;line-height:1.6;color:var(--slate);margin:0}
+.opportunity-note p+p{margin-top:8px}
+.opportunity-note span{display:block;color:var(--brass-deep);font-size:.8rem;font-weight:600;margin-bottom:4px}
+.ledger-row{grid-template-columns:repeat(4,minmax(0,1fr))}
+.work-frameworks{grid-template-columns:1fr}
+@media(max-width:880px){.ledger-row{grid-template-columns:repeat(2,minmax(0,1fr))}.ledger-cell{padding:24px 16px}.ledger-cell:nth-child(3){border-left:0}}
+@media(max-width:580px){.ledger-row{grid-template-columns:1fr}.ledger-cell,.ledger-cell:nth-child(3){border-left:0;border-bottom:1px solid var(--hairline)}.ledger-cell:last-child{border-bottom:0}.opportunity-note p{font-size:1rem}}
 </style>
 </head>
 <body>
@@ -727,13 +736,14 @@ body.menu-open{overflow:hidden}
         <div class="eyebrow-line"><span class="rule"></span>Portfolio Management · PMO · Transformation</div>
         <h1 class="hero-name">Ana Perry<br><em>PfMP, PMP, AIGP, CSM</em></h1>
         
-        <p class="hero-role">I help organizations translate strategy into prioritized portfolios, clear decisions, and disciplined delivery. My experience spans portfolio management, PMO governance, insurance technology transformation, and business process improvement.</p>
+        <p class="hero-role">I turn strategy into clear portfolio priorities, practical governance, and coordinated delivery across business and technology teams.</p>
+<div class="opportunity-note" aria-label="Target roles and availability"><p><span>Open to opportunities</span>Portfolio Management · PMO · Program Management · Transformation</p><p>Remote across the U.S. · Hybrid in New Jersey / New York</p></div>
         <div class="hero-actions">
           <a class="btn-primary" href="#contact">Get in touch</a>
           <a class="btn-ghost" href="#portfolio-demo">Explore my approach</a>
 <a class="btn-ghost" href="mailto:perry.ana36@gmail.com?subject=R%C3%A9sum%C3%A9%20request%20%E2%80%94%20Ana%20Perry&amp;body=Hi%20Ana%2C%0A%0AI%20would%20like%20to%20request%20a%20copy%20of%20your%20r%C3%A9sum%C3%A9.%0A%0AName%3A%20%0ACompany%3A%20%0ARole%20or%20opportunity%3A%20%0A%0AThank%20you." aria-describedby="resume-request-note">Request my résumé <span class="file-label">Email me for a copy</span></a>
         </div>
-        <p class="resume-request-note" id="resume-request-note">Interested in my experience? Email me to request my résumé. I share it directly to protect my contact information and connect with those interested in my work.</p>
+        <p class="resume-request-note" id="resume-request-note">My résumé is available by email so we can connect directly about your opportunity.</p>
       </div>
       <div class="hero-portrait">
         <div class="portrait-frame">
@@ -764,12 +774,12 @@ body.menu-open{overflow:hidden}
         <p class="section-note">Portfolio governance, stakeholder partnership, and clear communication.</p>
       </div>
       <div class="about-grid">
-        <p class="about-lede">I partner with business and technology leaders to clarify priorities, assess resource needs, manage risks and dependencies, and support informed investment decisions.</p>
+        <p class="about-lede">I help leaders see what to prioritize, what needs attention, and which decisions will move delivery forward.</p>
         <div class="about-body">
-          <p>My experience across Mitsui Sumitomo Insurance Group (MSIG USA), Munich Re, and Arch includes portfolio governance, executive reporting, project management, and business process improvement. I bring structure and visibility to complex initiatives so stakeholders can see what needs attention and where action is required.</p>
-<p>I develop practical governance frameworks that guide initiatives from intake and prioritization through planning, delivery, and post-implementation review. Using Power BI, Excel, and Microsoft collaboration tools, I turn portfolio information into insights on milestones, resource capacity, risks, and leadership decisions.</p>
-<p>As an AIGP-certified professional, I bring an AI governance perspective to responsible technology adoption. I created AI Governance Path and Bolt the Robot Dog to make governance concepts accessible through practical scenarios and interactive learning.</p>
-          <div class="lang-list">
+<p>My experience spans Mitsui Sumitomo Insurance Group (MSIG USA), Munich Re, and Arch. I bring insurance knowledge, cross-functional coordination, and practical decision support to complex portfolios.</p>
+<p>My work includes leadership dashboards, resource forecasts, business cases, delivery guidance, and governance training. I use Power BI, Excel, and Microsoft collaboration tools to make portfolio information easier to act on.</p>
+<p>As an AIGP-certified professional, I also bring an AI governance perspective. I created AI Governance Path and Bolt the Robot Dog to teach oversight and accountability through interactive scenarios.</p>
+<div class="lang-list">
             <div class="lang-chip"><b>English</b> — native</div>
             <div class="lang-chip"><b>Macedonian</b> — native</div>
             <div class="lang-chip"><b>Croatian</b> — professional</div>
@@ -899,8 +909,7 @@ body.menu-open{overflow:hidden}
             <li>Portfolio prioritization &amp; strategic alignment</li>
             <li>Governance frameworks</li>
             <li>Intake, stage gates &amp; lifecycle standards</li>
-            <li>Investment prioritization</li>
-            <li>Risk &amp; value realization</li>
+                        <li>Risk &amp; value realization</li>
             <li>Lean portfolio management</li>
           </ul>
         </div>
@@ -955,7 +964,7 @@ body.menu-open{overflow:hidden}
 <div class="case-grid">
 <article class="case-card"><span class="project-tag">MITSUI SUMITOMO INSURANCE GROUP (MSIG USA)</span><h4>Creating a consistent path from intake to delivery</h4><dl>
 <dt>The challenge</dt><dd>Support consistent decisions and delivery accountability across business and technology initiatives.</dd>
-<dt>My contribution</dt><dd>I developed governance processes covering demand intake, prioritization, stage gates, required artifacts, and risk escalation. I created guidance and training for Scrum Masters, Project Managers, and Portfolio Owners, alongside reporting on milestones, capacity, risks, and dependencies.</dd>
+<dt>My contribution</dt><dd>I created lifecycle guidance, reusable templates, and training for Scrum Masters, Project Managers, and Portfolio Owners, supported by reporting on milestones, capacity, and delivery risks.</dd>
 <dt>The outcome</dt><dd>A documented governance lifecycle, reusable delivery templates, and training materials that gave teams a shared reference for expectations and leadership reviews.</dd>
 </dl><div class="case-deliverables"><span>Lifecycle guidance</span><span>Business cases &amp; charters</span><span>RAID &amp; readiness reviews</span></div></article>
 <article class="case-card"><span class="project-tag">ARCH INSURANCE GROUP</span><h4>Connecting portfolio governance with operational change</h4><dl>
@@ -983,7 +992,7 @@ body.menu-open{overflow:hidden}
 <p class="demo-footnote">Demonstration only: all initiatives, statuses, roles, and resource needs above are fictional. This is a sample of my approach, not an employer dashboard or a claim of project results.</p>
 <noscript><p>The claims example is shown above. Enable JavaScript to switch between the three scenarios.</p></noscript></div>
 <div class="project-grid work-frameworks">
-<article class="project-card"><span class="project-tag">ILLUSTRATIVE · EXECUTIVE REPORTING</span><h3>Portfolio decision dashboard</h3><p>A concise view of delivery health and the decisions needed to keep initiatives moving.</p><dl><dt>Initiative</dt><dd>Claims intake improvement — fictional example</dd><dt>Status</dt><dd>Amber: testing depends on shared specialist capacity.</dd><dt>Decision needed</dt><dd>Confirm test support or approve a revised milestone.</dd><dt>Next checkpoint</dt><dd>Review readiness evidence with the accountable owner.</dd></dl></article>
+
 <article class="project-card"><span class="project-tag">ILLUSTRATIVE · PRIORITIZATION</span><h3>Investment prioritization framework</h3><p>I structure the conversation around a consistent set of questions before recommending a delivery sequence.</p><ol><li>What strategic objective does this support?</li><li>What value and evidence support the business case?</li><li>What risk or deadline makes it urgent?</li><li>What capacity and dependencies affect feasibility?</li><li>Who approves the trade-off and records the decision?</li></ol><p>Output: an agreed priority, accountable owner, and documented rationale.</p></article>
 
 </div>
